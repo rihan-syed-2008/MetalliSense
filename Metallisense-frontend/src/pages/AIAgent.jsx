@@ -48,9 +48,7 @@ const AIAgent = () => {
       // Check AI service availability
       if (!data.aiAnalysis.serviceAvailable) {
         setAIAvailable(false);
-        toast.warning(
-          "AI Agent service is experiencing issues. Results may be incomplete."
-        );
+        toast("AI agent fallback used")
       } else {
         setAIAvailable(true);
         toast.success("AI Agent analysis completed successfully");
