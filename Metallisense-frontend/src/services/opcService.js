@@ -11,4 +11,4 @@ export const disconnectOPC = () => api.post("/synthetic/opc-disconnect");
 
 // Generate Synthetic Reading
 export const generateSyntheticReading = (data) =>
-  api.post("/api/v2/synthetic/generate-synthetic", data);
+  api.post("/synthetic/generate-synthetic", data);
