@@ -32,7 +32,7 @@ export const API_ENDPOINTS = {
     OPC_DISCONNECT: "/api/v2/synthetic/opc-disconnect",
     GENERATE: "/api/v2/synthetic/generate-synthetic",
   },
-  SPECTROMETER: "/api/v2/spectrometer",
+  SPECTROMETER: "/api/v1/spectrometer",
 };
 
 // OPC Connection polling interval (milliseconds)
